@@ -4,16 +4,18 @@ De examen is gemaakt in laravel versie 7
 
 ##Installaties
 
-Om het project werkend te krijgen is het va belang dat er bepaalde applicaties en packages gedownload wordt.
+Om het project werkend te krijgen is het van belang dat er bepaalde applicaties downloadt.
 
 Als eerst is het belangrijk om [composer](https://getcomposer.org/doc/00-intro.md) te downloaden.
 
-Ga dan naar de terminal op de juiste path C:\xampp\htdocs\template en vul de volgende lijn in
+Ga dan naar de terminal op de juiste path C:\xampp\htdocs\template en vul de volgende commando in
 ```
-composer require laravel/ui:^2.4
+composer install
 ```
+Dit zorgt ervoor dat je alle packages en libraries installeert die gebruikt is om dit project te maken.
 
 Als je dat hebt gedaan moet je [Xampp](https://www.apachefriends.org/download.html) downloaden en de Apache en Sql server starten
+
 
 ##Database
 
